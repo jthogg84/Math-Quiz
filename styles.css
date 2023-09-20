@@ -1,0 +1,26 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #1428dd;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+.box{
+    position: relative;
+    width: fit-content;
+    font-size: 3rem;
+    background-color: #666;
+    border: solid white 2px;
+    padding: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-block: 1rem;
+    border-radius: 5px;
+}
