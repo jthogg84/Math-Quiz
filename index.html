@@ -10,30 +10,30 @@
 </head>
 <body>
     
-    <div class="container">
-        <h1>Endless Times Tables Quiz</h1>
-    </div>
-  <div class="container">
-    <h3 class="qnum"></h3>
-    <form class="Quiz">
-       
-        <div class="q1">
-            <div class="box"></div>
-        </div>
-           <input type="text" id="answer" name="answer" placeholder="Answer">
-        <div>
-        
-        <div>
-            <input class="subBtn" type="submit" value="Go">
-        </div>
-    </form>
-  </div>
+<div class="container">
+    <div class="top-box">
+        <h1>Times Tables Quiz</h1>
+        <h3 class="qnum"></h3>
+    </div> 
 
-  <div class="container">
-    <div class="score">Score = 0</div>
-    <div class="wOrW"></div>
-  </div>
+        <form class="quiz">
+                <div class="box"></div>
+                <input type="text" id="answer" name="answer">
+                <div class="sub">
+                <input class="subBtn" type="submit" value="Go">
+            </div>
+                <div class="score flex-center">Score = 0</div>
+        </form>
     
+
+    <div class="popup-wrapper">
+        <div class="popup ">
+            <div class="popup-close cross"></div>
+            <div class="popup-content"></div>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
